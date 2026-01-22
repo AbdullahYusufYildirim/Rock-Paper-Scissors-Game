@@ -24,6 +24,9 @@ while True:
         elif computer_choice == "Paper" :
             print("Scissor cut paper so computer lose and you are win")
 
+    play_again = input("Play again? (yes/no)")
+    if play_again != "yes" :
+        break
 
 
 
