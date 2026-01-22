@@ -18,6 +18,12 @@ while True:
             print("Paper covers rock so computer lose and  you are win ")
         elif computer_choice == "Scissor" :
             print("Scissor cut paper so computer win and you are lose ")
+    elif user_choice == "Scissor" :
+        if computer_choice == "Rock" :
+            print("Rock broke Scissor so computer win and you are lose" )
+        elif computer_choice == "Paper" :
+            print("Scissor cut paper so computer lose and you are win")
+
 
 
 
